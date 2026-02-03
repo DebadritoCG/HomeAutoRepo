@@ -13,6 +13,7 @@ def turn_off_light():
 
 # M-2 Using TinyTuya Api
 
+# pip install tuya-api
 import tinytuya
 
 d = tinytuya.BulbDevice(dev_id='84045520807d3a2888ff', address='OK_NIGG', local_key='GET_URS')
